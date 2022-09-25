@@ -12,7 +12,7 @@ def dispatch_reminder():
     title = scrapped_data[0][1]
     terms = scrapped_data[1][1]
     email_dispatcher = EmailDispatcher(
-        email="lewiikamaa8@gmail.com",  # to email
+        email="example@gmail.com",  # to email
         subject=title,
         terms=terms
     )
